@@ -29,7 +29,7 @@ configurations {
     validatesRunner
 }
 description = "Apache Beam :: Runners :: Twister2"
-def twister2_version = '0.6.0'
+def twister2_version = '0.8.0'
 dependencies {
     compile library.java.vendored_guava_26_0_jre
 
